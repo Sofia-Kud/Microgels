@@ -27,8 +27,7 @@ pip install -r requirements.txt
 │   ├── decision_boundary.png
 │   └── feature_importance.png
 ├── weights/            # Веса обученных моделей
-│   ├── logistic_regression_model.pkl
-│   └── stacking_ensemble.pkl
+│   └── random_forest_model.pkl # Лучшая модель при LOO-валидации - Random Forest 
 ├── notebooks/          # Jupyter/Colab блокноты
 │   └── microgels_classification.ipynb
 ├── scripts/            # Вспомогательные скрипты
@@ -66,7 +65,7 @@ pip install -r requirements.txt
 | Модель               | F1-score | ROC-AUC | Точность (Accuracy) |
 |----------------------|----------|---------|---------------------|
 | Логистическая регрессия | 0.923    | 1.000   | 0.900               |
-| Случайный лес        | 0.923    | 1.000   | 0.900               |
+| Random Forest       | 0.923    | 1.000   | 0.900               |
 | XGBoost              | 0.923    | 1.000   | 0.900               |
 | SVM                  | 1.000    | 1.000   | 1.000               |
 | Наивный Байес        | 0.9091   | 1.000  | 0.9000   |
@@ -74,7 +73,7 @@ pip install -r requirements.txt
 
 ### Сравнение моделей при LOO-валидации 
 
-| Модель               | F1-score | ROC-AUC | Точность |
+| Модель               | F1-score | ROC-AUC | Точность (Accuracy) |
 |----------------------|----------|---------|----------|
 | Логистическая регрессия | 0.7458   | 0.7030  | 0.5946   |
 | Random Forest        | 0.9565   | 0.9939  | 0.9459   |
