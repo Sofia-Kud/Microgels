@@ -69,6 +69,7 @@ pip install -r requirements.txt
 | Случайный лес        | 0.923    | 1.000   | 0.900               |
 | XGBoost              | 0.923    | 1.000   | 0.900               |
 | SVM                  | 1.000    | 1.000   | 1.000               |
+| Наивный Байес        | 0.9091   | 1.000  | 0.9000   |
 | Stacking Ensemble    | 0.923    | 1.000   | 0.900               |
 
 ### Сравнение моделей при LOO-валидации 
@@ -85,10 +86,10 @@ pip install -r requirements.txt
 ### Визуализации
 
 #### Границы решений (PCA) для SVM при кросс-валидации (5 фолдов, с аугментацией SMOTE)
-![Границы решений](examples/decision_boundary.png)
+![Границы решений](Examples/decision_boundary.png)
 
 #### Важность признаков для Random Forest при LOO-валидации 
-![Важность признаков](examples/feature_importance.png)
+![Важность признаков](Examples/feature_importance.png)
 
 ## Выводы
 1. Доказана эффективность ML для прогнозирования устойчивости полости: разработана модель с F1-score = 0.99
