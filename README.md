@@ -36,7 +36,7 @@ pip install -r requirements.txt
 │   └── shap_analysis.py
 ├── README.md           # Описание проекта
 ├── requirements.txt    # Список зависимостей
-└── main.py             # Основной скрипт
+
 ```
 
 
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 #### Важность признаков для Random Forest при LOO-валидации 
 ![Важность признаков](Examples/feature_importance.png)
 
-## Глубокий анализ результатов
+## Анализ результатов
 
 ### 1. Влияние дисбаланса классов и аугментации, эффективность SMOTE
 - **Проблема дисбаланса**: Исходные данные имели соотношение классов 1.47:1 (22:15):
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 3. Модель открывает путь к целенаправленному синтезу амфифильных микрогелей со стабильной полостью
 
 ## Ссылки
-- [Colab ноутбук](https://colab.research.google.com/drive/1GobGjwashbplZUkUcogOcHZ1ytEFitVv)
+- [Colab ноутбук](https://colab.research.google.com/drive/1kr7y6edO0qYhGnV0qVMb435jLeGyiW6n)
 - [Полный код проекта](https://github.com/Sofia-Kud/Microgels)
 
 ## Литература
