@@ -29,10 +29,7 @@ pip install -r requirements.txt
 ├── weights/            # Веса обученных моделей
 │   └── random_forest_model.pkl # Лучшая модель при LOO-валидации - Random Forest 
 ├── notebooks/          # Jupyter/Colab блокноты
-│   └── microgels_classification.ipynb
-├── scripts/            # Вспомогательные скрипты
-│   ├── visualize_results.py
-│   └── shap_analysis.py
+│   └── microgels_classification_fixed.ipynb
 ├── README.md           # Описание проекта
 ├── requirements.txt    # Список зависимостей
 
