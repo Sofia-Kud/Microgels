@@ -84,10 +84,10 @@ pip install -r requirements.txt
 
 ### Визуализации
 
-#### Границы решений (PCA)
+#### Границы решений (PCA) для SVM при кросс-валидации (5 фолдов, с аугментацией SMOTE)
 ![Границы решений](examples/decision_boundary.png)
 
-#### Важность признаков
+#### Важность признаков для Random Forest при LOO-валидации 
 ![Важность признаков](examples/feature_importance.png)
 
 ## Выводы
